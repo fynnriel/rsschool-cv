@@ -10,6 +10,9 @@
 -----------
 
 ### Personal information
+ My career path includes several months working as an engineer at company, which produced data security and information systems support. In addition, over the past three years I have been developing my soft skills, reached a new level in writing texts, showing an active interest in marketing. 
+As for now can confidently say - being broad-minded person I have no doubts in advantages of mastering new profession, called frontender.
+ 
 -----------
 
 ### Skills
