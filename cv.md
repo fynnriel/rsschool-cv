@@ -6,13 +6,13 @@
 **Telegram**: [@fynnriel] [link1]\
 **GitHub**: [@fynnriel] [link2]\
 **LinkedIn**: [natalia-bayramova] [link3]\
-**Discord**: [@fynnriel.] [link4]\
+**Discord**: [@fynnriel.] [link4]
 
 -----------
 
 ### Personal information
- My career path includes several months working as an engineer at company, which produced data security and information systems support. In addition, over the past three years I have been developing my soft skills, reached a new level in writing texts, showing an active interest in marketing.\ 
-As for now can confidently say - being broad-minded person I have no doubts in advantages of mastering new profession, called frontender.
+ My career path includes several months working as an engineer at company, which produced data security and information systems support. In addition, over the past three years I have been developing my soft skills, reached a new level in writing texts, showing an active interest in marketing.  
+ As for now can confidently say - being broad-minded person I have no doubts in advantages of mastering new profession, called frontender.
  
 -----------
 
@@ -28,7 +28,7 @@ As for now can confidently say - being broad-minded person I have no doubts in a
 
 ### Code sample
 As a beginner to such a challenging coding practice, sharing the very first solution from Codewars:
-```
+```javascript
 function multiply(a, b){
   return a * b;
 }
