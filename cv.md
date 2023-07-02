@@ -1,4 +1,4 @@
-# Natalya Bairamova
+# **Natalya Bairamova**
 ***********
 ### Contact information
 **Phone**: +7 927 952 65 64
@@ -13,15 +13,37 @@
 -----------
 
 ### Skills
+* **Java** Basics, **JavaScript** Basics
+* **HTML** and **CSS**
+* **C++** basic knowledge
+* **Git**
+* **SQL** 
+* *IntelliJ IDEA*
 -----------
 
 ### Code sample
+As a beginner to such a challenging coding practice, sharing the very first solution from Codewars:
+```
+function multiply(a, b){
+  return a * b;
+}
+```
+So, the problem was a missing semicolon.
+
 -----------
 
 ### Education background
+* **Web programming course** by ITMO University on https://apps.openedu.ru
+* Halfly completed (45%) **Java Basics course** by EPAM.training
+* RS Schools Course **«JavaScript/Front-end. Stage 0»** (in progress)
+* **Bachelor's Degree in Information Technology**, Ufa State Petroleum Technical University, field of study - Computer Science and Computer Technology
+
 -----------
 
 ### Languages
+* **English** - Upper-intermediate B2 (Proficiency C1 in 2019 according to ***Anglia international exam***, due to lack of speaking level has dropped a bit)
+* **Russian** - Native
+* **Bashkir** - Basic
 -----------
 
 [link1]: <https://t.me/fynnriel>
