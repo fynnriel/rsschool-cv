@@ -13,7 +13,6 @@
 
 <body>
     <header class="header">
-    <div class="container">
     <nav class="nav">
         <ul class="nav-list">
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -25,11 +24,11 @@
             <li class="nav-item"><a href="#code-sample" class="nav-link">Code sample</a></li>
         </ul>
     </nav>
-    </div>
     </header>
 
     <main class="main" class="main-container">
         <div class="container">
+        <div class="column-left">
         <section id="contacts" class="section">
             <img class="photo" src="./assets/img/cv_photo.jpeg" alt="Photo" width="200" height="200">
             <h1>Natalia Bayramova</h1>
@@ -37,27 +36,27 @@
             <ul>
                 <li class="contact-list">
                     <img src="./assets/svg/telegram.svg" alt="Telegram icon" width="20" height="20">
-                    <p> Telegram:&nbsp;<a class="contact-link" href="https://t.me/fynnriel">@fynnriel </a></p>
+                    <span>&nbsp;Telegram:&nbsp;<a class="contact-link" href="https://t.me/fynnriel">@fynnriel </a></span>
                 </li>
                 <li class="contact-list">
                     <img src="./assets/svg/discord.svg" alt="Discord icon" width="20" height="20">
-                    <p> Discord:&nbsp;<a class="contact-link" href="https://discord.com/users/882627276930424843/">@fynnriel. </a></p>
+                    <span>&nbsp;Discord:&nbsp;<a class="contact-link" href="https://discord.com/users/882627276930424843/">@fynnriel. </a></span>
                 </li>
                 <li class="contact-list">
                     <img src="./assets/svg/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-                    <p> LinkedIn:&nbsp;<a class="contact-link" href="https://www.linkedin.com/in/natalia-bayramova"> natalia-bayramova </a></p>
+                    <span>&nbsp;LinkedIn:&nbsp;<a class="contact-link" href="https://www.linkedin.com/in/natalia-bayramova"> natalia-bayramova </a></span>
                 </li>
                 <li class="contact-list">
                     <img src="./assets/svg/github.svg" alt="Github icon" width="20" height="20">
-                    <p> Github:&nbsp;<a class="contact-link" href="https://github.com/fynnriel">@fynnriel </a></p>
+                    <span>&nbsp;Github:&nbsp;<a class="contact-link" href="https://github.com/fynnriel">@fynnriel </a></span>
                 </li>
                 <li class="contact-list">
                     <img src="./assets/svg/email.svg" alt="Email icon" width="20" height="20">
-                    <p> Email: natalya.zelenina.96@mail.ru </p>
+                    <span>&nbsp;Email: natalya.zelenina.96@mail.ru </span>
                 </li>
                 <li class="contact-list">
                     <img src="./assets/svg/location.svg" alt="Location icon" width="20" height="20">
-                    <p> Russia, Saint Petersburg </p>
+                    <span>&nbsp;Russia, Saint Petersburg </span>
                 </li>
             </ul>
         </section>
@@ -85,6 +84,8 @@
               <li><i>IntelliJ IDEA</i></li>
             </ul>
           </section>
+        </div>
+        <div class="column-right">
         <section id="education" class="section">
             <h2 class="section-title">Education background</h2>
             <ul>
@@ -121,13 +122,12 @@
                     </code>
                 </pre>
             <p>So, the problem was a missing semicolon.</p>
-
         </section>
+    </div>
     </div>
     </main>
 
     <footer class="footer">
-        <div class="container">
         <a href="https://github.com/fynnriel">
             <img src="./assets/svg/github-footer.svg" alt="Gihub icon" width="30" height="30">
           </a>
@@ -135,7 +135,6 @@
         <a href="https://rs.school/js/">
           <img src="./assets/svg/rs_school_js.svg" alt="RS School icon" width="73" height="26">
         </a>
-        </div>
     </footer>
 
 </body>

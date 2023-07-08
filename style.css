@@ -1,6 +1,6 @@
 :root {
     --blue-color: #85929E ;
-    --light-blue-color: #AEB6BF;
+    --light-blue-color: #EEEEEE;
     --orange-color: #F5B041;
 }
 body {
@@ -51,18 +51,27 @@ body {
 }
 
 .container{
-    display: block;
+    display: flex;
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.column-left {
+    width: 50%;
+    background-color: var(--light-blue-color);
+  }
+
+.column-right {
+    width: 50%;
+    padding: 40px;
+  }
 
 .main-container{
     display: flex;
     flex-wrap: wrap;
 }
-
 .section {
-    width: 50%;
+    width: 80%;
   }
 
 h1 {
@@ -71,6 +80,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color:#767676;
+    text-shadow: 2px 2px var(--orange-color);
   }
 
 .link{
@@ -86,10 +96,11 @@ h1 {
 
 .section-title {
     font-size: 27px;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: var(--blue-color);
+    text-shadow: 2px 2px var(--orange-color);
   }
 
 .contact-list{
