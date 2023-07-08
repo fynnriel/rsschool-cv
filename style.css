@@ -1,6 +1,21 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+:root {
+    --blue-color: #85929E ;
+    --light-blue-color: #AEB6BF;
+    --orange-color: #F5B041;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 21px;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+header, main, footer {
+    border: 1px solid red;
+}
+
