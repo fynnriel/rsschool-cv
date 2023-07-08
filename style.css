@@ -7,6 +7,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: 'Agdasima', sans-serif;
     font-size: 21px;
   }
@@ -15,7 +18,47 @@ body {
     box-sizing: border-box;
   }
 
+.nav {
+    background-color: var(--blue-color);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+    transition: .3s;
+    cursor: pointer;
+  }
+
+.nav-link:hover{
+    color:var(--orange-color);
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 header, main, footer {
     border: 1px solid red;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--blue-color);
+}
