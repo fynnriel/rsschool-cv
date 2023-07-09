@@ -1,6 +1,157 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+:root {
+    --blue-color: #85929E ;
+    --light-blue-color: #EEEEEE;
+    --orange-color: #F5B041;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 21px;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+
+.all-together{
+    width: 1024px;
+    margin: 0px auto;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: var(--blue-color);
 }
+
+.photo{
+    margin: 10px 210px 10px 110px;
+    border: 7px solid var(--blue-color);
+    border-radius: 30%;
+}
+
+.english-level{
+    margin-left: 40px;
+}
+
+.nav-list {
+    margin: 0px;
+    padding: 16px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+    transition: .3s;
+    cursor: pointer;
+  }
+
+.nav-link:hover{
+    color:var(--orange-color);
+}
+
+.container{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.column-left {
+    width: 50%;
+    background-color: var(--light-blue-color);
+  }
+
+.column-right {
+    width: 50%;
+    padding: 40px;
+  }
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 90%;
+    padding: 10px 40px;
+  }
+
+h1 {
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#767676;
+    text-shadow: 2px 2px var(--orange-color);
+  }
+
+.link{
+    text-decoration: none;
+    color:#767676;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.link:hover{
+    color:var(--orange-color);
+}
+
+.section-title {
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--blue-color);
+    text-shadow: 2px 2px var(--orange-color);
+  }
+
+.contact-list{
+    list-style: none;
+}
+
+.contact-link{
+    text-decoration: none;
+    color:#767676;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contact-link:hover{
+    color:var(--orange-color);
+}
+
+.section-title {
+    border: 1px solid var(--blue-color);
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--blue-color);
+}
+
+
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }

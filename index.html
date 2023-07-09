@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/svg/cv.ico">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV by Natalia Bairamova</title>
 </head>
+
 <body>
+    <div class="all-together">
+    <header class="header">
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            <li class="nav-item"><a href="#project" class="nav-link">My project</a></li>
+            <li class="nav-item"><a href="#code-sample" class="nav-link">Code sample</a></li>
+        </ul>
+    </nav>
+    </header>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <main class="main-container">
+        <div class="container">
+        <div class="column-left">
+        <section id="contacts" class="section">
+            <img class="photo" src="./assets/img/cv_photo.jpeg" alt="Photo" width="200" height="200">
+            <h1>Natalia Bayramova</h1>
+            <h2 class="section-title">Contact Information</h2>
+            <ul>
+                <li class="contact-list">
+                    <img src="./assets/svg/telegram.svg" alt="Telegram icon" width="20" height="20">
+                    <span>&nbsp;Telegram:&nbsp;<a class="contact-link" href="https://t.me/fynnriel">@fynnriel </a></span>
+                </li>
+                <li class="contact-list">
+                    <img src="./assets/svg/discord.svg" alt="Discord icon" width="20" height="20">
+                    <span>&nbsp;Discord:&nbsp;<a class="contact-link" href="https://discord.com/users/882627276930424843/">@fynnriel. </a></span>
+                </li>
+                <li class="contact-list">
+                    <img src="./assets/svg/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+                    <span>&nbsp;LinkedIn:&nbsp;<a class="contact-link" href="https://www.linkedin.com/in/natalia-bayramova"> natalia-bayramova </a></span>
+                </li>
+                <li class="contact-list">
+                    <img src="./assets/svg/github.svg" alt="Github icon" width="20" height="20">
+                    <span>&nbsp;Github:&nbsp;<a class="contact-link" href="https://github.com/fynnriel">@fynnriel </a></span>
+                </li>
+                <li class="contact-list">
+                    <img src="./assets/svg/email.svg" alt="Email icon" width="20" height="20">
+                    <span>&nbsp;Email: natalya.zelenina.96@mail.ru </span>
+                </li>
+                <li class="contact-list">
+                    <img src="./assets/svg/location.svg" alt="Location icon" width="20" height="20">
+                    <span>&nbsp;Russia, Saint Petersburg </span>
+                </li>
+            </ul>
+        </section>
+        <section id="summary" class="section">
+            <h2 class="section-title">Personal information</h2>
+            <p>
+                My career path includes several months working as an engineer at company,
+                which produced data security and information systems support. In addition,
+                over the past three years I have been developing my soft skills, reached
+                a new level in writing texts, showing an active interest in marketing.
+            </p>
+            <p>
+                As for now can confidently say - being broad-minded person I have no doubts
+                in advantages of mastering new profession, called frontender.
+            </p>
+        </section>
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+              <li><b>Java</b> Basics, <b>JavaScript</b> Basics</li>
+              <li><b>HTML</b> and <b>CSS</b></li>
+              <li><b>C++</b> basic knowledge</li>
+              <li><b>Git</b></li>
+              <li><b>SQL</b></li>
+              <li><i>IntelliJ IDEA</i></li>
+            </ul>
+          </section>
+        </div>
+        <div class="column-right">
+        <section id="education" class="section">
+            <h2 class="section-title">Education background</h2>
+            <ul>
+                <li><b>Web programming course</b> by ITMO University on <a class="link" href="https://openedu.ru/course/ITMOUniversity/WEBDEV/?session=self_2023">OpenEdu</a></li>
+                <li>Halfly completed (45%) <b>Java Basics course</b> by <a class="link" href="https://elearn.epam.com/courses/course-v1:RD_CEE+JB+0322/course/">EPAM.training</a></li>
+                <li>RS Schools Course <b>«JavaScript/Front-end. Stage 0»</b> (in progress)</li>
+                <li><b>Bachelor&rsquo;s Degree in Information Technology,</b> Ufa State Petroleum Technical University, field of study - Computer Science and Computer Technology</li>
+            </ul>
+        </section>
+        <section id="languages" class="section">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li><b>Russian</b> - Native</li>
+                <li><b>Bashkir</b> - Basic</li>
+                <li><b>English</b> - Upper-intermediate B2 (Proficiency C1 in 2019 according to <b><i>Anglia international exam</i></b>, due to lack of speaking level has dropped a bit)</li>
+            </ul>
+            <a class="link" href="https://app.smalltalk2.me/">
+                <img class="english-level" src="./assets/img/english_level.jpg" alt="English level" width="300" height="300">
+                <br> Current English level according to <b>SmallTalk</b>
+            </a>
+        </section>
+        <section id="project" class="section">
+            <h2 class="section-title">My project</h2>
+            <a class="link" href="https://fynnriel.github.io/rsschool-cv/">RSS Stage0 Project</a>
+        </section>
+        <section id="code-sample" class="section">
+            <h2 class="section-title">Code sample</h2>
+            <p> As a beginner to such a challenging coding practice, sharing the very first solution from Codewars:</p>
+                <pre><code>
+    function multiply(a, b){
+        return a * b;
+    }
+    </code></pre>
+            <p>So, the problem was a missing semicolon.</p>
+        </section>
+    </div>
+    </div>
+    </main>
 
+    <footer class="footer">
+        <a style="text-decoration: none; color: black;" href="https://github.com/fynnriel">
+            <img src="./assets/svg/github-footer.svg" alt="Gihub icon" width="30" height="30">
+            <span>&nbsp;My Github</span>
+        </a>
+        <p>© 2023</p>
+        <a href="https://rs.school/js/">
+          <img src="./assets/svg/rs_school_js.svg" alt="RS School icon" width="73" height="26">
+        </a>
+    </footer>
+    </div>
 </body>
 </html>
