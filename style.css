@@ -69,12 +69,13 @@ body {
 
 .column-left {
     width: 50%;
+    padding: 0px 0px 0px 20px;
     background-color: var(--light-blue-color);
   }
 
 .column-right {
     width: 50%;
-    padding: 40px;
+    padding: 20px;
   }
 
 .main-container{
